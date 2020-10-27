@@ -469,7 +469,7 @@ footer {
   padding: 0;
   cursor: pointer;
 }
-.nav-mob{
+.nav-mob {
   margin-left: 18rem;
   display: none;
 }
@@ -657,7 +657,8 @@ footer {
   animation-duration: 0.4s;
 }
 
-.slidebar-head .heading1{padding-top: 10px;
+.slidebar-head .heading1 {
+  padding-top: 10px;
 }
 .slidebar-head {
   padding: 2px 16px;
@@ -784,14 +785,66 @@ footer {
   width: 100%;
 }
 .list-item a:hover {
-  background-color:  #eef8fe;
+  background-color: #eef8fe;
 }
-.list-item-text{
+.list-item-text {
   margin-left: 10px;
 }
 .slidebar-main {
   padding: 0;
 }
+
+.headdinglog {
+  display: inline-block;
+  color: #878787;
+  font-size: 18px;
+  margin-top: 8px;
+  font-weight: 900;
+}
+.bel {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.belleft {
+  padding-right: 10px;
+  border-right: 0.5px solid #878787;
+}
+.belright {
+  padding-left: 10px;
+  border-left: 0.5px solid #878787;
+}
+.myaccbtn {
+  margin: 6px;
+  margin-left: 4px !important;
+  margin-right: 4px !important;
+  width: 150px;
+  max-width: 100%;
+  display: inline-flex;
+  background: #0092ed !important;
+  border: 1px solid transparent !important;
+  font-size: 18px !important;
+  padding: 0 10px !important;
+  height: 56px;
+  line-height: 54px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 2px !important;
+  justify-content: center;
+  vertical-align: middle;
+  color: #fff;
+  text-decoration: none;
+}
+#fl {
+  display: block;
+  color: #878787;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-top: 8px;
+  max-width: 40%;
+
+}
+
 /*------------------------------------------ tablate mod -------------------------------------------------*/
 @media screen and (max-width: 769px) {
   .logo-margin-top {
@@ -801,6 +854,14 @@ footer {
   .home {
     display: flex;
     flex-direction: column;
+  }
+  .myaccbtn {
+    font-size: 20px !important;
+    margin: 10px;
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+    width: 85%;
+    max-width: 100%;
   }
   .home-btn-link {
     font-size: 20px !important;
@@ -865,10 +926,10 @@ footer {
     width: 45%;
     margin: 0;
   }
-  .nav-mob{
+  .nav-mob {
     display: inline-block;
   }
-  .nav-mob a{
+  .nav-mob a {
     line-height: 0;
     font-size: 15px;
   }

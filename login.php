@@ -9,7 +9,7 @@ include('./include/header.php'); ?>
     </div>
 </div>
 <div class="center">
-    <form action="">
+    <form action="./myacc" method="post">
         <div class="body-container">
             <div class="save-user-details">
                 <div class="form-group">
@@ -22,7 +22,7 @@ include('./include/header.php'); ?>
         </div>
         <div class="footer-contr text-center">
             <div class="footer-contr btn-contr text-center">
-                <button class="home-btn-link" tabindex="0" type="button">
+                <button class="home-btn-link" href="./myacc"  type="submit">
                     <span class="MuiButton-label">Continue</span>
                 </button>
             </div>
